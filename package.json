@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.10.7",
+    "mongoose": "^3.8.21"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
