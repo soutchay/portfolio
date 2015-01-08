@@ -1,9 +1,13 @@
 var express = require('express'),
 	app     = express(),
-	http    = require('http');
+	http    = require('http'),
+	public_path = require('path');
 
 var port        = process.env.PORT || 3000;
 console.log('running');
+
+app.use(express.static(public_path.join(__dirname, 'public')));
+
 app.listen(port);
 
 var router = express.Router();
