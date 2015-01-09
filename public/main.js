@@ -183,8 +183,8 @@ window.addEventListener('click', function(){
         viewport.remove();
         var body = document.getElementsByTagName('body')[0];
         var space = document.createElement('div');
-        space.className = 'space';
-        body.appendChild(space);
+        // space.className = 'space';
+        // body.appendChild(space);
     }, 1500);
 });
 
