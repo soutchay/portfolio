@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+}
+.hide {
+	visibility: hidden;
+	display: none;
+}
+
+.test {
+	height: 200px;
+	width: 200px;
+	background-color: purple;
+}
+.navbar {
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	background-color: rgba( 0,0,255,0);
+}
+
+.about {
+	margin-top: 50px;
+	height: 2000px;
+	background-color: black;
+	color: white;
+}
+
+.portfolio {
+	height: 2000px;
+	background-color: white;
+	color: black;
+}
+
+.contact {
+	height: 2000px;
+	background-color: blue;
+	color: white;
+}

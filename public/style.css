@@ -10,6 +10,7 @@
     color: white;
     animation: intro 3s;
     -webkit-animation: intro 3s;
+    -moz-animation: intro 3s;
     opacity: 1;
 }
 @-webkit-keyframes intro {

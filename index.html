@@ -4,21 +4,25 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="angular.min.js"></script>
 	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
 </head>
-<body ng-app='myApp'>
+<body ng-app='myApp' ng-controller='myController' ng-click="clicked()">
 	<div id="viewport">
 		<div id="world"></div>
 		<div id="message">Reach Beyond The Sky...</div>
 	</div>
-	<div ng-controller='myController' ng-class="appliedStyle" class="main">
-		<div>About
-			<div> Full Stack Developer/Software Engineer looking to build amazing things. My skills range from Javascript, HTML5/CSS3, Ruby on Rails, NodeJS and more.
+	<div ng-class="appliedStyle" class="main">
+		<div class="navbar"></div>
+		<div class="about">About
+			<div> Full Stack Developer/Software Engineer looking to build amazing things. My skills range from Javascript, AngularJS, HTML5/CSS3, Ruby on Rails, NodeJS and more.
 			</div>
 		</div>
-		<div>Portfolio</div>
-		<div>Contact Me</div>
+		<div class="portfolio">Portfolio
+			<div class="project" ng-repeat="project in projects">{{project.name}}</div>
+		</div>
+		<div class="contact">Contact Me</div>
 	</div>
 	<script src="main.js"></script>
 	<script src="ang.js"></script>
