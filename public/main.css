@@ -17,15 +17,18 @@ body {
 	height: 50px;
 	width: 100%;
 	position: fixed;
-	background-color: rgba( 0,0,255,0);
+	background-color: rgba(0,255,255,0.5);
 }
 
 .about {
 	margin-top: 50px;
 	height: 2000px;
-	background-color: black;
+	background-image: url("space.jpg");
 	color: white;
+	background-attachment: fixed;
 }
+
+
 
 .portfolio {
 	height: 2000px;
