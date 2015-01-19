@@ -1,9 +1,11 @@
 angular.module('myApp', [])
-.controller('myController', function($scope){
+.controller('myController', function($scope, $timeout){
 	$scope.appliedStyle = "hide";
 	$scope.clicked = function(){
-		console.log('clicked');
-		$scope.appliedStyle = "";
+		console.log(this);
+		$timeout(function(){
+			$scope.appliedStyle = "";
+		}, 1500);
 	};
 	$scope.projects = [
 	{name: "LivingRoom", link: "https://livingroom.herokuapp.com/", image: "image here"},

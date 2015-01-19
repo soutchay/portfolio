@@ -4,7 +4,7 @@ var express = require('express'),
 	public_path = require('path');
 
 var port        = process.env.PORT || 3000;
-console.log('running');
+console.log('running on port:', port);
 
 app.use(express.static(public_path.join(__dirname, 'public')));
 

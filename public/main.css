@@ -22,13 +22,42 @@ body {
 
 .about {
 	margin-top: 50px;
-	height: 2000px;
+	height: 100vh;
 	background-image: url("space.jpg");
 	color: white;
+	padding-top: 100px;
+	font-size: 50px;
+	text-align: center;
 	background-attachment: fixed;
+	perspective: 1px;
+	-webkit-perspective: 1px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.photo {
+	border-radius: 100%;
+	border: 2px solid black;
+}
+.parallax {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 100vh 0;
 }
 
+.about-front {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    color: red;
+}
 
+.about-back {
+	font-size: 40px;
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+}
 
 .portfolio {
 	height: 2000px;
