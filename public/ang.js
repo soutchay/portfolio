@@ -10,7 +10,7 @@ angular.module('myApp', [])
 	$scope.projects = [
 	{name: "LivingRoom", link: "https://livingroom.herokuapp.com/", image: "image here"},
 	{name: "Yabe", link: "https://livingroom.herokuapp.com/", image: "image here"},
-	{name: "C*Splat", link: "https://csplat.herokuapp.com/", image: "image here"},
+	{name: "C*Splat", link: "https://csplat.herokua∫pp.com/", image: "image here"},
 	{name: "TicTacToe", link: "https://tictacyo.firebaseapp.com/", image: "image here"},
 	];
 });

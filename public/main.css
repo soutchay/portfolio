@@ -38,6 +38,8 @@ body {
 	margin-top: 50px;
 	border-radius: 100%;
 	border: 2px solid black;
+	width: 500px;
+	height: 500px;
 }
 .parallax {
   position: absolute;
@@ -53,14 +55,16 @@ body {
     transform: translateZ(0);
     color: red;
     font-size: 25px;
-    text-align: left;
-    width: 500px;
+    float: right;
+    text-align: right;
+    padding-left: 45%;
+    margin-top: 15%;
+    background-color: rgba(0,0,0,.5);
 }
 .about-front2 {
+	margin-top: -10%;
 	-webkit-transform: translateZ(10);
     transform: translateZ(10);
-    -webkit-transform: translateX(10);
-    transform: translateX(10);
     color: blue;
     font-size: 25px;
     text-align: right;
@@ -68,7 +72,7 @@ body {
 }
 
 .about-back {
-	margin-top: -100px;
+	margin-top: -50%;
 	font-size: 40px;
     -webkit-transform: translateZ(-1px);
     transform: translateZ(-1px);
