@@ -82,6 +82,12 @@ body {
 	background-color: white;
 	color: black;
 }
+.project {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: white;
+}
 
 .contact {
 	height: 2000px;

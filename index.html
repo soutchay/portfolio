@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<div class="portfolio">Portfolio
-			<div class="project" ng-repeat="project in projects">{{project.name}}</div>
+			<a ng-repeat="project in projects" href="{{project.link}}"><span class="project">{{project.name}}</span></a>
 		</div>
 		<div class="contact">Contact Me</div>
 	</div>
